@@ -1,6 +1,6 @@
 import { View, Text, Image, Button } from 'react-native';
 
-export default function PlaylistGenerator({ navigation }) {
+export default function ArenaEditor({ navigation }) {
 	return (
 		<View>
 			<Text>Under Construction</Text>

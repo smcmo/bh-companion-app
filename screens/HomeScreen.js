@@ -35,7 +35,7 @@ export default function HomeScreen({ navigation }) {
 				onPress={() => navigation.navigate('CurrentDeals')}
 			>
 				<Image
-					source={require('./../assets/icons/lined-list.png')}
+					source={require('./../assets/icons/price-tag.png')}
 					style={styles.buttonImage}
 				/>
 				<Text style={styles.buttonText}>VIEW CURRENT DEALS</Text>
@@ -45,7 +45,7 @@ export default function HomeScreen({ navigation }) {
 				onPress={() => navigation.navigate('PricingReference')}
 			>
 				<Image
-					source={require('./../assets/icons/lined-list.png')}
+					source={require('./../assets/icons/price-ref.png')}
 					style={styles.buttonImage}
 				/>
 				<Text style={styles.buttonText}>PRICING REFERENCE</Text>
@@ -55,7 +55,7 @@ export default function HomeScreen({ navigation }) {
 				onPress={() => navigation.navigate('CleaningList')}
 			>
 				<Image
-					source={require('./../assets/icons/lined-list.png')}
+					source={require('./../assets/icons/spray-can.png')}
 					style={styles.buttonImage}
 				/>
 				<Text style={styles.buttonText}>CLEANING LIST</Text>
@@ -65,7 +65,7 @@ export default function HomeScreen({ navigation }) {
 				onPress={() => navigation.navigate('RoomManager')}
 			>
 				<Image
-					source={require('./../assets/icons/lined-list.png')}
+					source={require('./../assets/icons/party.png')}
 					style={styles.buttonImage}
 				/>
 				<Text style={styles.buttonText}>MANAGE PARTY ROOMS</Text>
@@ -75,7 +75,7 @@ export default function HomeScreen({ navigation }) {
 				onPress={() => navigation.navigate('SessionManager')}
 			>
 				<Image
-					source={require('./../assets/icons/lined-list.png')}
+					source={require('./../assets/icons/play.png')}
 					style={styles.buttonImage}
 				/>
 				<Text style={styles.buttonText}>RUN A SESSION</Text>
@@ -85,7 +85,7 @@ export default function HomeScreen({ navigation }) {
 				onPress={() => navigation.navigate('SpectorView')}
 			>
 				<Image
-					source={require('./../assets/icons/lined-list.png')}
+					source={require('./../assets/icons/tv.png')}
 					style={styles.buttonImage}
 				/>
 				<Text style={styles.buttonText}>OPEN SPECTATOR VIEW</Text>
@@ -95,7 +95,7 @@ export default function HomeScreen({ navigation }) {
 				onPress={() => navigation.navigate('ArenaEditor')}
 			>
 				<Image
-					source={require('./../assets/icons/lined-list.png')}
+					source={require('./../assets/icons/map.png')}
 					style={styles.buttonImage}
 				/>
 				<Text style={styles.buttonText}>VIRITUAL ARENA MAP</Text>
